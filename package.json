@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-linux",
+  "productName": "WhatsApp",
+  "version": "1.0.0",
+  "description": "Native Linux desktop wrapper for WhatsApp Web",
+  "main": "src/main.js",
+  "desktopName": "whatsapp-linux.desktop",
+  "author": "Zenel Shabani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZenelShabani/whatsapp-linux.git"
+  },
+  "homepage": "https://github.com/ZenelShabani/whatsapp-linux",
+  "keywords": [
+    "whatsapp",
+    "linux",
+    "electron",
+    "desktop",
+    "wayland",
+    "gnome"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "icons": "node scripts/make-icons.js"
+  },
+  "devDependencies": {
+    "electron": "^44.7.2"
+  }
+}
